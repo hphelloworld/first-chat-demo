@@ -1,0 +1,44 @@
+<% include header %>
+<div class="wrap">
+	<div class="container padding_10 ">
+		<h3 class="fbold color_4 padding_10 h3_title margin_b10">Socket.IO聊天室</h3>
+		<div class="padding_10 form_div margin_b10">
+			<form class="form-inline"> 
+				<div class="form-group">
+				    <label class="control-label">用户名</label>
+				    <input type="text" class="form-control" id="username" placeholder="请输入用户名" value="游客">
+			    </div>
+			    <div class="form-group">
+				    <input type="button" class="form-control btn btn-success" id="login" value="登录">
+			    </div>
+			    <div class="form-group">
+				    <input type="button" class="form-control btn btn-primary" id="logout" value="退出">
+			    </div>
+			</form>
+		</div>
+		<div class="clearfix chat_div">
+			<div class="col-xs-9 padding_10">
+				<div class="chat_body margin_b10">
+				</div>
+				<div class="">
+					<div>
+						<form class="clearfix"> 
+							<textarea class="form-control margin_b10 f14 msg_textarea" placeholder="请输入内容"></textarea>
+							<div class="col-xs-1">
+								<input type="button" class="form-control btn btn-danger send_btn" value="发送">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-3 padding_10">
+				<h4 class="color_6 margin_b10">用户列表</h4>
+				<div class="user_list padding_10">
+				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+<% include footer %>
+
+
