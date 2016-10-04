@@ -1,5 +1,5 @@
 # my-first
-my first gihub project
+my first github project
 
 
 For Node.js
